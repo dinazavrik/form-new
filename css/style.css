@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+.contact-form {
+    height: 100vh;
+    background-image: linear-gradient(29deg, #ff512f 0%, #dd2476 100%);
+}
+
+.contact-form__box {
+    margin: 31px 30px 60px 35px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.contact-form__text {
+    margin: 0;
+    padding-bottom: 18px;
+    color: #1b1c1d;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact-form__text:before {
+    content: "\f084";
+    font-family: 'FontAwesome';
+    width: 24px;
+    height: 24px;
+    color: #df2671;
+    padding-right: 10px;
+}
+
+.contact-form__textwrap {
+    margin: 0;
+    padding-bottom: 34px;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7a7b7f;
+}
+
+.textwrap__a {
+    color: #ea355a;
+    text-decoration: none;
+}
+
+.textwrap__a:hover {
+    color: palevioletred;
+}
+
+.form__text {
+    margin-top: 0;
+    border-radius: 4px;
+    position: relative;
+}
+
+.form__input {
+    width: 100%;
+    height: 40px;
+    color: #7a7b7f;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 14px;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.form__text--firstname {
+    width: 47%;
+    float: left;
+    line-height: 0;
+}
+
+.form__text--lastname {
+    width: 47%;
+    float: right;
+    line-height: 0;
+}
+
+.form__text--email {
+    clear: both;
+}
+
+.form__btn {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 27px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 #bd1962;
+    outline: none;
+    background-color: #ea355a;
+}
+
+.form__btn:hover {
+    cursor: pointer;
+    color: palevioletred;
+}
